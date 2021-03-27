@@ -1,8 +1,8 @@
 
 # C++ Challenge 
 
-* [challenge info](https://wiki.jderobot.org/store/jmplaza/uploads/gsoc/gsoc2020-c++_test.pdf)
-* [demo video](https://youtu.be/wl_irxn8pGI)
+* [challenge info](https://drive.google.com/file/d/1KKpq6fGGhV99biaJ8l5udADh925nDzZ3/vie)
+* [demo video](https://youtu.be/2jh4-ewTNx4)
 
 ## Running the code
 
