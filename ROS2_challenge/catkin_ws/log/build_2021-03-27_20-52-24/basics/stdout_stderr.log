@@ -1,0 +1,8 @@
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/basics/lib/pkgconfig/basics.pc
+-- Up-to-date symlink: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/basics/share/basics/cmake/basicsConfig.cmake
+-- Up-to-date symlink: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/basics/share/basics/cmake/basicsConfig-version.cmake
+-- Up-to-date symlink: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/basics/share/basics/package.xml

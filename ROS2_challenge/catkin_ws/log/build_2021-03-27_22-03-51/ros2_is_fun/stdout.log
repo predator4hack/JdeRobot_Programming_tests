@@ -1,0 +1,118 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/lib/ccache/cc
+-- Check for working C compiler: /usr/lib/ccache/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/lib/ccache/c++
+-- Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun/devel
+-- Using CMAKE_PREFIX_PATH: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/devel;/home/chandan/catkin_ws/devel;/opt/ros/melodic
+-- This workspace overlays: /home/chandan/catkin_ws/devel;/opt/ros/melodic
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- ros2_is_fun: 1 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target _ros2_is_fun_generate_messages_check_deps_my_message[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _ros2_is_fun_generate_messages_check_deps_my_message
+[35m[1mScanning dependencies of target ros2_is_fun_generate_messages_py[0m
+[35m[1mScanning dependencies of target ros2_is_fun_generate_messages_eus[0m
+[35m[1mScanning dependencies of target ros2_is_fun_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target ros2_is_fun_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target ros2_is_fun_generate_messages_nodejs[0m
+[ 28%] [34m[1mGenerating C++ code from ros2_is_fun/my_message.msg[0m
+[ 28%] [34m[1mGenerating Python from MSG ros2_is_fun/my_message[0m
+[ 42%] [34m[1mGenerating EusLisp manifest code for ros2_is_fun[0m
+[ 57%] [34m[1mGenerating EusLisp code from ros2_is_fun/my_message.msg[0m
+[ 71%] [34m[1mGenerating Lisp code from ros2_is_fun/my_message.msg[0m
+[ 85%] [34m[1mGenerating Javascript code from ros2_is_fun/my_message.msg[0m
+[ 85%] Built target ros2_is_fun_generate_messages_lisp
+[ 85%] Built target ros2_is_fun_generate_messages_nodejs
+[100%] [34m[1mGenerating Python msg __init__.py for ros2_is_fun[0m
+[100%] Built target ros2_is_fun_generate_messages_cpp
+[100%] Built target ros2_is_fun_generate_messages_py
+[100%] Built target ros2_is_fun_generate_messages_eus
+[35m[1mScanning dependencies of target ros2_is_fun_generate_messages[0m
+[100%] Built target ros2_is_fun_generate_messages
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _ros2_is_fun_generate_messages_check_deps_my_message
+[ 28%] Built target ros2_is_fun_generate_messages_eus
+[ 42%] Built target ros2_is_fun_generate_messages_cpp
+[ 57%] Built target ros2_is_fun_generate_messages_nodejs
+[ 85%] Built target ros2_is_fun_generate_messages_py
+[100%] Built target ros2_is_fun_generate_messages_lisp
+[100%] Built target ros2_is_fun_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/msg/my_message.msg
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/cmake/ros2_is_fun-msg-paths.cmake
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/include/ros2_is_fun/my_message.h
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/roseus/ros/ros2_is_fun/manifest.l
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/roseus/ros/ros2_is_fun/msg/my_message.l
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/common-lisp/ros/ros2_is_fun/msg/_package.lisp
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/common-lisp/ros/ros2_is_fun/msg/_package_my_message.lisp
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/common-lisp/ros/ros2_is_fun/msg/my_message.lisp
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/common-lisp/ros/ros2_is_fun/msg/ros2_is_fun-msg.asd
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/gennodejs/ros/ros2_is_fun/_index.js
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/gennodejs/ros/ros2_is_fun/msg/_index.js
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/gennodejs/ros/ros2_is_fun/msg/my_message.js
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/lib/python2.7/dist-packages/ros2_is_fun/__init__.py
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/lib/python2.7/dist-packages/ros2_is_fun/msg/__init__.py
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/lib/python2.7/dist-packages/ros2_is_fun/msg/_my_message.py
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/lib/pkgconfig/ros2_is_fun.pc
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/cmake/ros2_is_fun-msg-extras.cmake
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/cmake/ros2_is_funConfig.cmake
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/cmake/ros2_is_funConfig-version.cmake
+-- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/package.xml
+Listing /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun/devel/lib/python2.7/dist-packages/ros2_is_fun ...
+Compiling /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun/devel/lib/python2.7/dist-packages/ros2_is_fun/__init__.py ...
+Listing /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun/devel/lib/python2.7/dist-packages/ros2_is_fun/msg ...
+Compiling /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun/devel/lib/python2.7/dist-packages/ros2_is_fun/msg/__init__.py ...
+Compiling /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun/devel/lib/python2.7/dist-packages/ros2_is_fun/msg/_my_message.py ...

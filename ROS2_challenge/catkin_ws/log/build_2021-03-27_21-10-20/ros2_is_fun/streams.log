@@ -1,0 +1,31 @@
+[0.036s] Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun': /usr/bin/cmake /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ros2_is_fun -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun
+[0.058s] -- Using CATKIN_DEVEL_PREFIX: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun/devel
+[0.059s] -- Using CMAKE_PREFIX_PATH: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ROS2_is_Fun;/home/chandan/catkin_ws/devel;/opt/ros/melodic
+[0.059s] -- This workspace overlays: /home/chandan/catkin_ws/devel;/opt/ros/melodic
+[0.062s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.082s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.082s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.082s] -- Using Debian Python package layout
+[0.083s] -- Using empy: /usr/bin/empy
+[0.321s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.321s] -- Call enable_testing()
+[0.321s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun/test_results
+[0.353s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.354s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.376s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[0.384s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[0.445s] -- catkin 0.7.29
+[0.445s] -- BUILD_SHARED_LIBS is on
+[0.602s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[0.670s] CMake Error at /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:224 (message):
+[0.670s]   catkin_package() DEPENDS on the catkin package 'geometry_msgs' which must
+[0.671s]   therefore be listed as a run dependency in the package.xml
+[0.671s] Call Stack (most recent call first):
+[0.671s]   /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+[0.671s]   CMakeLists.txt:103 (catkin_package)
+[0.672s] 
+[0.672s] 
+[0.677s] -- Configuring incomplete, errors occurred!
+[0.677s] See also "/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun/CMakeFiles/CMakeOutput.log".
+[0.678s] See also "/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun/CMakeFiles/CMakeError.log".
+[0.685s] Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun' returned '1': /usr/bin/cmake /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ros2_is_fun -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun

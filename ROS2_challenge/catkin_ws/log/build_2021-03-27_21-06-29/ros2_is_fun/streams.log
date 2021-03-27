@@ -1,0 +1,35 @@
+[0.033s] Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun -- -j12 -l12
+[0.071s] -- Using CATKIN_DEVEL_PREFIX: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun/devel
+[0.071s] -- Using CMAKE_PREFIX_PATH: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ROS2_is_Fun;/home/chandan/catkin_ws/devel;/opt/ros/melodic
+[0.072s] -- This workspace overlays: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ROS2_is_Fun;/home/chandan/catkin_ws/devel;/opt/ros/melodic
+[0.080s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.118s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.119s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.119s] -- Using Debian Python package layout
+[0.119s] -- Using empy: /usr/bin/empy
+[0.343s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.344s] -- Call enable_testing()
+[0.344s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun/test_results
+[0.388s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.389s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.416s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[0.424s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[0.490s] -- catkin 0.7.29
+[0.492s] -- BUILD_SHARED_LIBS is on
+[0.669s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[0.730s] CMake Error at /opt/ros/melodic/share/catkin/cmake/catkin_package_xml.cmake:54 (message):
+[0.730s]   catkin_package_xml() package name 'ros2_is_fun' in
+[0.731s]   '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ros2_is_fun/package.xml'
+[0.731s]   does not match current PROJECT_NAME 'basics'.  You must call project() with
+[0.731s]   the same package name before.
+[0.731s] Call Stack (most recent call first):
+[0.731s]   /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:99 (catkin_package_xml)
+[0.731s]   CMakeLists.txt:103 (catkin_package)
+[0.732s] 
+[0.732s] 
+[0.734s] -- Configuring incomplete, errors occurred!
+[0.734s] See also "/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun/CMakeFiles/CMakeOutput.log".
+[0.735s] See also "/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun/CMakeFiles/CMakeError.log".
+[0.740s] Makefile:530: recipe for target 'cmake_check_build_system' failed
+[0.740s] make: *** [cmake_check_build_system] Error 1
+[0.742s] Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun' returned '2': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun -- -j12 -l12

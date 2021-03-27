@@ -1,0 +1,60 @@
+[0.037s] Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun': /usr/bin/cmake /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ros2_is_fun -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun
+[0.176s] -- The C compiler identification is GNU 7.5.0
+[0.266s] -- The CXX compiler identification is GNU 7.5.0
+[0.274s] -- Check for working C compiler: /usr/lib/ccache/cc
+[0.393s] -- Check for working C compiler: /usr/lib/ccache/cc -- works
+[0.395s] -- Detecting C compiler ABI info
+[0.480s] -- Detecting C compiler ABI info - done
+[0.496s] -- Detecting C compile features
+[0.845s] -- Detecting C compile features - done
+[0.852s] -- Check for working CXX compiler: /usr/lib/ccache/c++
+[0.981s] -- Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+[0.983s] -- Detecting CXX compiler ABI info
+[1.078s] -- Detecting CXX compiler ABI info - done
+[1.090s] -- Detecting CXX compile features
+[1.675s] -- Detecting CXX compile features - done
+[1.680s] -- Using CATKIN_DEVEL_PREFIX: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun/devel
+[1.680s] -- Using CMAKE_PREFIX_PATH: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ROS2_is_Fun;/home/chandan/catkin_ws/devel;/opt/ros/melodic
+[1.681s] -- This workspace overlays: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ROS2_is_Fun;/home/chandan/catkin_ws/devel;/opt/ros/melodic
+[1.683s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.706s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.707s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.707s] -- Using Debian Python package layout
+[1.707s] -- Using empy: /usr/bin/empy
+[1.929s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.929s] -- Call enable_testing()
+[1.932s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun/test_results
+[1.966s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.966s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.989s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.991s] -- Looking for pthread.h
+[2.119s] -- Looking for pthread.h - found
+[2.120s] -- Looking for pthread_create
+[2.245s] -- Looking for pthread_create - not found
+[2.245s] -- Looking for pthread_create in pthreads
+[2.321s] -- Looking for pthread_create in pthreads - not found
+[2.321s] -- Looking for pthread_create in pthread
+[2.406s] -- Looking for pthread_create in pthread - found
+[2.408s] -- Found Threads: TRUE  
+[2.417s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.482s] -- catkin 0.7.29
+[2.483s] -- BUILD_SHARED_LIBS is on
+[2.963s] -- Configuring done
+[2.984s] -- Generating done
+[2.989s] -- Build files have been written to: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun
+[2.995s] Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun' returned '0': /usr/bin/cmake /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ros2_is_fun -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun
+[3.000s] Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun -- -j12 -l12
+[3.066s] Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun -- -j12 -l12
+[3.123s] Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun --target tests -- -j12 -l12
+[3.211s] [35m[1mScanning dependencies of target tests[0m
+[3.228s] Built target tests
+[3.247s] Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun --target tests -- -j12 -l12
+[3.317s] Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun --target install -- -j12 -l12
+[3.386s] [36mInstall the project...[0m
+[3.398s] -- Install configuration: ""
+[3.399s] -- Execute custom install script
+[3.399s] -- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/lib/pkgconfig/ros2_is_fun.pc
+[3.415s] -- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/cmake/ros2_is_funConfig.cmake
+[3.428s] -- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/cmake/ros2_is_funConfig-version.cmake
+[3.444s] -- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/package.xml
+[3.462s] Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun --target install -- -j12 -l12

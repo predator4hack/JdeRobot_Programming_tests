@@ -1,0 +1,1 @@
+/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/devel/.private/ros2_is_fun/share/common-lisp/ros/ros2_is_fun/msg/my_message.lisp

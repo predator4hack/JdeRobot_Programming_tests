@@ -1,0 +1,14 @@
+[0.053s] Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller -- -j12 -l12
+[0.159s] Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller -- -j12 -l12
+[0.220s] Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller --target tests -- -j12 -l12
+[0.314s] Built target tests
+[0.336s] Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller --target tests -- -j12 -l12
+[0.397s] Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller --target install -- -j12 -l12
+[0.477s] [36mInstall the project...[0m
+[0.491s] -- Install configuration: ""
+[0.492s] -- Execute custom install script
+[0.493s] -- Up-to-date symlink: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/lib/pkgconfig/ebot_controller.pc
+[0.493s] -- Up-to-date symlink: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/cmake/ebot_controllerConfig.cmake
+[0.494s] -- Up-to-date symlink: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/cmake/ebot_controllerConfig-version.cmake
+[0.494s] -- Up-to-date symlink: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/package.xml
+[0.499s] Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller --target install -- -j12 -l12
