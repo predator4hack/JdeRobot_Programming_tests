@@ -1,18 +1,10 @@
 
 # C++ Challenge 
 
-* [challenge info](https://drive.google.com/file/d/1KKpq6fGGhV99biaJ8l5udADh925nDzZ3/vie)
+* [Problem statement](https://drive.google.com/file/d/1KKpq6fGGhV99biaJ8l5udADh925nDzZ3/vie)
 * [demo video](https://youtu.be/2jh4-ewTNx4)
 
 ## Running the code
-
-#### Option 1
-
-```bash
-bash run_app.sh
-```
-
-#### Option 2
 
 ```bash
 mkdir build && cd build
