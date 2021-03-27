@@ -1,0 +1,280 @@
+[0.256s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.256s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2de6bffba8>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2de6bffba8>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2de6bffe10>)
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.266s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_controller) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_controller) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_controller) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_controller) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_controller) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_controller) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_controller) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_controller) by extension 'ros'
+[0.292s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ebot_controller' with type 'ros.catkin' and name 'ebot_controller'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'ignore_ament_install'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['colcon_pkg']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'colcon_pkg'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['colcon_meta']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'colcon_meta'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'ros'
+[0.293s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ebot_description' with type 'ros.catkin' and name 'ebot_description'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_is_fun) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_is_fun) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_is_fun) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_is_fun) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_is_fun) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_is_fun) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_is_fun) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_is_fun) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_is_fun) by extension 'ros'
+[0.295s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_is_fun' with type 'ros.catkin' and name 'ros2_is_fun'
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ebot_controller' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'ebot_controller' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'ebot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'ebot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'ebot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'ebot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'ebot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'ebot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'ebot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'ebot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller', 'merge_install': False, 'path': '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ebot_controller', 'symlink_install': True, 'test_result_base': None}
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.342s] DEBUG:colcon.colcon_core.verb:Building package 'ebot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description', 'merge_install': False, 'path': '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ebot_description', 'symlink_install': True, 'test_result_base': None}
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'ros2_is_fun' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'ros2_is_fun' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'ros2_is_fun' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'ros2_is_fun' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'ros2_is_fun' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'ros2_is_fun' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'ros2_is_fun' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'ros2_is_fun' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'ros2_is_fun' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_is_fun' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun', 'merge_install': False, 'path': '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ros2_is_fun', 'symlink_install': True, 'test_result_base': None}
+[0.349s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.352s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.352s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ebot_controller' with build type 'catkin'
+[0.353s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ebot_controller'
+[0.374s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.379s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.379s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.380s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.380s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ROS2_is_Fun' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.380s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/chandan/catkin_ws/devel'
+[0.381s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[0.385s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ebot_description' with build type 'catkin'
+[0.386s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ebot_description'
+[0.387s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.390s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/chandan/catkin_ws/devel'
+[0.390s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[0.394s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ros2_is_fun' with build type 'catkin'
+[0.395s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ros2_is_fun'
+[0.396s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.396s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.399s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/chandan/catkin_ws/devel'
+[0.399s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[0.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller': /usr/bin/cmake /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ebot_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller
+[0.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_description': /usr/bin/cmake /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ebot_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description
+[0.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun': /usr/bin/cmake /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ros2_is_fun -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun
+[2.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_description' returned '0': /usr/bin/cmake /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ebot_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description
+[2.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_description': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_description -- -j12 -l12
+[3.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_description' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_description -- -j12 -l12
+[3.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_description': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_description --target tests -- -j12 -l12
+[3.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller' returned '0': /usr/bin/cmake /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ebot_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller
+[3.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller -- -j12 -l12
+[3.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun' returned '0': /usr/bin/cmake /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ros2_is_fun -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun
+[3.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun -- -j12 -l12
+[3.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller -- -j12 -l12
+[3.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun -- -j12 -l12
+[3.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_description' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_description --target tests -- -j12 -l12
+[3.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller --target tests -- -j12 -l12
+[3.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_description': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_description --target install -- -j12 -l12
+[3.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun --target tests -- -j12 -l12
+[3.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller --target tests -- -j12 -l12
+[3.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun --target tests -- -j12 -l12
+[3.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller --target install -- -j12 -l12
+[3.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_description' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_description --target install -- -j12 -l12
+[3.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun --target install -- -j12 -l12
+[3.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_description', 'ros_package_path')
+[3.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/hook/ros_package_path.ps1'
+[3.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/hook/ros_package_path.dsv'
+[3.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/hook/ros_package_path.sh'
+[3.511s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/lib/python2.7/dist-packages'
+[3.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_description', 'pkg_config_path')
+[3.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/hook/pkg_config_path.ps1'
+[3.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/hook/pkg_config_path.dsv'
+[3.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/hook/pkg_config_path.sh'
+[3.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_description', 'pkg_config_path_multiarch')
+[3.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/hook/pkg_config_path_multiarch.ps1'
+[3.526s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/hook/pkg_config_path_multiarch.dsv'
+[3.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/hook/pkg_config_path_multiarch.sh'
+[3.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_description)
+[3.535s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description' for CMake module files
+[3.537s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description' for CMake config files
+[3.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_description', 'cmake_prefix_path')
+[3.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.ps1'
+[3.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.dsv'
+[3.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.sh'
+[3.546s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/lib'
+[3.546s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/bin'
+[3.546s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/lib/pkgconfig/ebot_description.pc'
+[3.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_description', 'pkg_config')
+[3.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/hook/pkg_config.ps1'
+[3.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/hook/pkg_config.dsv'
+[3.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/hook/pkg_config.sh'
+[3.551s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/lib/python3.6/site-packages'
+[3.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/package.ps1'
+[3.557s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/package.dsv'
+[3.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/package.sh'
+[3.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/package.bash'
+[3.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/package.zsh'
+[3.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/colcon-core/packages/ebot_description)
+[3.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller --target install -- -j12 -l12
+[3.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ros2_is_fun --target install -- -j12 -l12
+[3.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_controller', 'ros_package_path')
+[3.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/hook/ros_package_path.ps1'
+[3.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/hook/ros_package_path.dsv'
+[3.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/hook/ros_package_path.sh'
+[3.685s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/lib/python2.7/dist-packages'
+[3.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_controller', 'pkg_config_path')
+[3.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/hook/pkg_config_path.ps1'
+[3.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/hook/pkg_config_path.dsv'
+[3.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/hook/pkg_config_path.sh'
+[3.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_controller', 'pkg_config_path_multiarch')
+[3.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/hook/pkg_config_path_multiarch.ps1'
+[3.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/hook/pkg_config_path_multiarch.dsv'
+[3.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/hook/pkg_config_path_multiarch.sh'
+[3.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_controller)
+[3.696s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller' for CMake module files
+[3.697s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller' for CMake config files
+[3.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_controller', 'cmake_prefix_path')
+[3.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/hook/cmake_prefix_path.ps1'
+[3.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/hook/cmake_prefix_path.dsv'
+[3.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/hook/cmake_prefix_path.sh'
+[3.702s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/lib'
+[3.702s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/bin'
+[3.702s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/lib/pkgconfig/ebot_controller.pc'
+[3.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_controller', 'pkg_config')
+[3.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/hook/pkg_config.ps1'
+[3.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/hook/pkg_config.dsv'
+[3.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/hook/pkg_config.sh'
+[3.706s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/lib/python3.6/site-packages'
+[3.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/package.ps1'
+[3.709s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/package.dsv'
+[3.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/package.sh'
+[3.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/package.bash'
+[3.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/package.zsh'
+[3.713s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/colcon-core/packages/ebot_controller)
+[3.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_is_fun', 'ros_package_path')
+[3.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/hook/ros_package_path.ps1'
+[3.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/hook/ros_package_path.dsv'
+[3.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/hook/ros_package_path.sh'
+[3.723s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/lib/python2.7/dist-packages'
+[3.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_is_fun', 'pkg_config_path')
+[3.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/hook/pkg_config_path.ps1'
+[3.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/hook/pkg_config_path.dsv'
+[3.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/hook/pkg_config_path.sh'
+[3.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_is_fun', 'pkg_config_path_multiarch')
+[3.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/hook/pkg_config_path_multiarch.ps1'
+[3.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/hook/pkg_config_path_multiarch.dsv'
+[3.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/hook/pkg_config_path_multiarch.sh'
+[3.729s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_is_fun)
+[3.730s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun' for CMake module files
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun' for CMake config files
+[3.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_is_fun', 'cmake_prefix_path')
+[3.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/hook/cmake_prefix_path.ps1'
+[3.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/hook/cmake_prefix_path.dsv'
+[3.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/hook/cmake_prefix_path.sh'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/lib'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/bin'
+[3.735s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/lib/pkgconfig/ros2_is_fun.pc'
+[3.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_is_fun', 'pkg_config')
+[3.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/hook/pkg_config.ps1'
+[3.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/hook/pkg_config.dsv'
+[3.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/hook/pkg_config.sh'
+[3.737s] Level 1:colcon.colcon_core.environment:checking '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/lib/python3.6/site-packages'
+[3.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/package.ps1'
+[3.739s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/package.dsv'
+[3.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/package.sh'
+[3.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/package.bash'
+[3.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/ros2_is_fun/package.zsh'
+[3.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun/share/colcon-core/packages/ros2_is_fun)
+[3.742s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.744s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.745s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.755s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.756s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.756s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.760s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.761s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/local_setup.ps1'
+[3.763s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/_local_setup_util_ps1.py'
+[3.766s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/setup.ps1'
+[3.772s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/local_setup.sh'
+[3.773s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/_local_setup_util_sh.py'
+[3.774s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/setup.sh'
+[3.777s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/local_setup.bash'
+[3.778s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/setup.bash'
+[3.782s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/local_setup.zsh'
+[3.783s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/setup.zsh'

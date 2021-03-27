@@ -1,0 +1,8 @@
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/lib/pkgconfig/ebot_description.pc
+-- Up-to-date symlink: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/cmake/ebot_descriptionConfig.cmake
+-- Up-to-date symlink: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/cmake/ebot_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description/share/ebot_description/package.xml

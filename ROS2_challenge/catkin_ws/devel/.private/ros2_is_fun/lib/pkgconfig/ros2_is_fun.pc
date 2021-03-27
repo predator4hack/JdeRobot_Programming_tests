@@ -1,0 +1,8 @@
+prefix=/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/devel/.private/ros2_is_fun
+
+Name: ros2_is_fun
+Description: Description of ros2_is_fun
+Version: 0.0.0
+Cflags: -I/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/devel/.private/ros2_is_fun/include
+Libs: -L${prefix}/lib 
+Requires: rospy geometry_msgs message_runtime message_generation std_msgs

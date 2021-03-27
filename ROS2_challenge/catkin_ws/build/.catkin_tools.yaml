@@ -1,0 +1,6 @@
+devel_space: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/devel
+install: false
+install_space: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install
+profile: default
+source_space: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src
+workspace: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws

@@ -1,0 +1,8 @@
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/lib/pkgconfig/ebot_controller.pc
+-- Up-to-date symlink: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/cmake/ebot_controllerConfig.cmake
+-- Up-to-date symlink: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/cmake/ebot_controllerConfig-version.cmake
+-- Up-to-date symlink: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/package.xml

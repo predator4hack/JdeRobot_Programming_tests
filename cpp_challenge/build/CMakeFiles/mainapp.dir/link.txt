@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++     CMakeFiles/mainapp.dir/src/labyrinth.cpp.o CMakeFiles/mainapp.dir/src/main.cpp.o  -o mainapp 

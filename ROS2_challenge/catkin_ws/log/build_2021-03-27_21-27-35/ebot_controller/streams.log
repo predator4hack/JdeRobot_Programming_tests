@@ -1,0 +1,61 @@
+[0.057s] Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller': /usr/bin/cmake /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ebot_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller
+[0.165s] -- The C compiler identification is GNU 7.5.0
+[0.257s] -- The CXX compiler identification is GNU 7.5.0
+[0.265s] -- Check for working C compiler: /usr/lib/ccache/cc
+[0.344s] -- Check for working C compiler: /usr/lib/ccache/cc -- works
+[0.345s] -- Detecting C compiler ABI info
+[0.431s] -- Detecting C compiler ABI info - done
+[0.444s] -- Detecting C compile features
+[0.723s] -- Detecting C compile features - done
+[0.728s] -- Check for working CXX compiler: /usr/lib/ccache/c++
+[0.819s] -- Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+[0.820s] -- Detecting CXX compiler ABI info
+[0.924s] -- Detecting CXX compiler ABI info - done
+[0.941s] -- Detecting CXX compile features
+[1.422s] -- Detecting CXX compile features - done
+[1.426s] -- Using CATKIN_DEVEL_PREFIX: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller/devel
+[1.426s] -- Using CMAKE_PREFIX_PATH: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ros2_is_fun;/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_description;/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller;/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ROS2_is_Fun;/home/chandan/catkin_ws/devel;/opt/ros/melodic
+[1.426s] -- This workspace overlays: /home/chandan/catkin_ws/devel;/opt/ros/melodic
+[1.430s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.449s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.450s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.450s] -- Using Debian Python package layout
+[1.450s] -- Using empy: /usr/bin/empy
+[1.739s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.739s] -- Call enable_testing()
+[1.743s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller/test_results
+[1.783s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.783s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.806s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.808s] -- Looking for pthread.h
+[1.899s] -- Looking for pthread.h - found
+[1.900s] -- Looking for pthread_create
+[1.986s] -- Looking for pthread_create - not found
+[1.987s] -- Looking for pthread_create in pthreads
+[2.053s] -- Looking for pthread_create in pthreads - not found
+[2.053s] -- Looking for pthread_create in pthread
+[2.146s] -- Looking for pthread_create in pthread - found
+[2.148s] -- Found Threads: TRUE  
+[2.157s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.229s] -- catkin 0.7.29
+[2.229s] -- BUILD_SHARED_LIBS is on
+[2.452s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.724s] -- Configuring done
+[2.748s] -- Generating done
+[2.755s] -- Build files have been written to: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller
+[2.763s] Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller' returned '0': /usr/bin/cmake /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ebot_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller
+[2.768s] Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller -- -j12 -l12
+[2.837s] Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller -- -j12 -l12
+[2.899s] Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller --target tests -- -j12 -l12
+[2.986s] [35m[1mScanning dependencies of target tests[0m
+[3.002s] Built target tests
+[3.022s] Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller --target tests -- -j12 -l12
+[3.091s] Invoking command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller --target install -- -j12 -l12
+[3.183s] [36mInstall the project...[0m
+[3.197s] -- Install configuration: ""
+[3.197s] -- Execute custom install script
+[3.198s] -- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/lib/pkgconfig/ebot_controller.pc
+[3.214s] -- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/cmake/ebot_controllerConfig.cmake
+[3.229s] -- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/cmake/ebot_controllerConfig-version.cmake
+[3.249s] -- Symlinking: /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/install/ebot_controller/share/ebot_controller/package.xml
+[3.270s] Invoked command in '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller' returned '0': /usr/bin/cmake --build /home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/build/ebot_controller --target install -- -j12 -l12

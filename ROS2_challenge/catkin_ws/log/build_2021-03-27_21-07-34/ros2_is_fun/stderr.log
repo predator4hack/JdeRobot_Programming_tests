@@ -1,0 +1,10 @@
+CMake Error at /opt/ros/melodic/share/catkin/cmake/catkin_package_xml.cmake:54 (message):
+  catkin_package_xml() package name 'ros2_is_fun' in
+  '/home/chandan/JdeRobotGSOC_2021/ROS2_challenge/catkin_ws/src/ros2_is_fun/package.xml'
+  does not match current PROJECT_NAME 'basics'.  You must call project() with
+  the same package name before.
+Call Stack (most recent call first):
+  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:99 (catkin_package_xml)
+  CMakeLists.txt:103 (catkin_package)
+
+
