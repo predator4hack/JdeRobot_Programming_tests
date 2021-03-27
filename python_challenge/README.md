@@ -6,9 +6,9 @@ JdeRobot python programming challenge
 
 
 ### Configurations
-- ![Block](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Game_of_life_block_with_border.svg/800px-Game_of_life_block_with_border.svg.png)
+- ![Block](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Game_of_life_block_with_border.svg/99px-Game_of_life_block_with_border.svg.png)
 
-- ![Beehive](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Game_of_life_beehive.svg/1024px-Game_of_life_beehive.svg.png)
+- ![Beehive](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Game_of_life_beehive.svg/147px-Game_of_life_beehive.svg.png)
 
 - ![Boat](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Game_of_life_boat.svg/123px-Game_of_life_boat.svg.png)
 
