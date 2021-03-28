@@ -24,7 +24,7 @@ public:
     void solveLabyrinth();
 
 private:
-    int lWidth;
+    int labyrinthWidth;
     int labyrinthHeight;
     std::string fileName;
 
