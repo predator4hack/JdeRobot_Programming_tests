@@ -13,6 +13,23 @@ make
 ./mainapp
 ```
 
+### Examples used
+```
+##.##.#
+#..##.#
+#.#####
+#..####
+#######
+```
+
+```
+##.##.#
+##.#..#
+####..#
+##....#
+#######
+```
+
 ## Structure
 
 ```bash
@@ -21,7 +38,6 @@ make
 ├── include
 │   └── labyrinth.h
 ├── README.md
-├── run_app.sh
 ├── src
 │   ├── labyrinth.cpp
 │   └── main.cpp
